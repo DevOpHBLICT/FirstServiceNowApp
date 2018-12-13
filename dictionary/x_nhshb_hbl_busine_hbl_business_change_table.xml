@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="HBL Business Change Table" max_length="40" name="x_nhshb_hbl_busine_hbl_business_change_table" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lead2" max_length="40" name="u_choice_10" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Analyst1" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Analyst2" max_length="40" name="u_choice_12" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="u_choice_13" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Organisation" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="HBLICT" sequence="0" value="hblict"/>
+                <element label="ENHCCG" sequence="1" value="enhccg"/>
+                <element label="HCT" sequence="2" value="hct"/>
+                <element label="HPFT" sequence="3" value="hpft"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_21" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="Bc" sequence="0" value="bc"/>
+                <element label="Networks" sequence="1" value="networks"/>
+                <element label="Training" sequence="2" value="training"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lead1" max_length="40" name="u_choice_9" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Due Date" max_length="40" name="u_due_date_16" type="due_date"/>
+        <element label="RequestDate" max_length="40" name="u_glide_date_14" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="u_glide_date_15" type="glide_date"/>
+        <element label="Completed Date" max_length="40" name="u_glide_date_17" type="glide_date"/>
+        <element label="Date Advised Customer" max_length="40" name="u_glide_date_18" type="glide_date"/>
+        <element label="Hours" max_length="40" name="u_longint_19" type="longint"/>
+        <element label="Workstream" max_length="40" name="u_longint_20" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Details" max_length="40" name="u_string_7" type="string"/>
     </element>
 </database>

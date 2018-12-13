@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="dca29ca6db526f00927af58dbf96194f" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_nhshb_hbl_busine_hbl_business_change_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>WallaceN</sys_created_by>
+            <sys_created_on>2018-12-13 10:43:38</sys_created_on>
+            <sys_id>94a2142edb926f00927af58dbf961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nhshb_hbl_busine_hbl_business_change_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">dca29ca6db526f00927af58dbf96194f</sys_ui_section>
+            <sys_updated_by>WallaceN</sys_updated_by>
+            <sys_updated_on>2018-12-13 10:43:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_nhshb_hbl_busine_hbl_business_change_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>WallaceN</sys_created_by>
+            <sys_created_on>2018-12-13 10:43:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>dca29ca6db526f00927af58dbf96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nhshb_hbl_busine_hbl_business_change_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HBL Business Change" source="x_nhshb_hbl_busine">03005caadb526f00927af58dbf961976</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HBL Business Change">03005caadb526f00927af58dbf961976</sys_scope>
+            <sys_update_name>sys_ui_section_dca29ca6db526f00927af58dbf96194f</sys_update_name>
+            <sys_updated_by>WallaceN</sys_updated_by>
+            <sys_updated_on>2018-12-13 10:43:38</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
