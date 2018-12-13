@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>WallaceN</sys_created_by>
+        <sys_created_on>2018-12-13 10:32:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e7001022db926f00927af58dbf9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nhshb_hbl_busine_hbl_business_change_table.x_nhshb_hbl_busine.user</sys_name>
+        <sys_package display_value="HBL Business Change" source="x_nhshb_hbl_busine">03005caadb526f00927af58dbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HBL Business Change">03005caadb526f00927af58dbf961976</sys_scope>
+        <sys_security_acl display_value="x_nhshb_hbl_busine_hbl_business_change_table">1b001022db926f00927af58dbf9619c4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e7001022db926f00927af58dbf9619cc</sys_update_name>
+        <sys_updated_by>WallaceN</sys_updated_by>
+        <sys_updated_on>2018-12-13 10:32:23</sys_updated_on>
+        <sys_user_role display_value="x_nhshb_hbl_busine.user" name="x_nhshb_hbl_busine.user">53001022db926f00927af58dbf961961</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
